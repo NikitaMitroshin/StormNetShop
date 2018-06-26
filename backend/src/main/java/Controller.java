@@ -19,6 +19,7 @@ public class Controller {
     private static final ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) {
+        System.out.println("Stas");
         staticFileLocation("/");
 
         get("/getAllGoods", getAllGoodsRoute());
