@@ -39,6 +39,9 @@ class AdminService {
         root1.getChildren().add(AppClient.getButtonAddGoods());
         root1.getChildren().add(AppClient.getButtonUpdateListForAddGoods());
 
+
+
+
     }
 
     public void rootAuthorization(GridPane root2) {
